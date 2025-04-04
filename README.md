@@ -24,9 +24,9 @@ candlestick_recognition/
 ├── notebooks/          # EDA and experimental notebooks
 │   └── eda.ipynb
 ├── figures/            # Visualizations and diagrams
-├── train_test/         # Training and testing scripts
-│   ├── train_yolov8.ipynb #Training,validation and results
-│   └──train_crossvit.ipynb#Training,validation and results
+├── code/         # Training and testing scripts
+│   ├── yolov8.ipynb #Training,validation and results
+│   └──crossvit.ipynb#Training,validation and results
 └── README.md           # Project documentation
 
 
