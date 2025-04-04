@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Ascending Triangle', 'Cup and Handle', 'Descending Triangle', 'Double Bottom', 'Double Top', 'Falling Wedge', 'Head and Shoulder', 'Inverse Head and Shoulder', 'Symmetric Triangle', 'Triple Bottom Reversal', 'flag-and-pole']
+
+roboflow:
+  workspace: melvins
+  project: my-first-project-w0n2j
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/melvins/my-first-project-w0n2j/dataset/2
