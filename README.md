@@ -1,4 +1,8 @@
 # Capstone
+<img width="469" alt="Screenshot 2025-03-31 at 22 56 57" src="https://github.com/user-attachments/assets/d315ae3e-ba6f-42b3-9408-a10e8e542045" />
+
+
+
 Automated candle stick patttern recognition using YOLOv8 and CrossViT 
 Author: Melvin Mathew
 
@@ -24,3 +28,5 @@ candlestick_recognition/
 │   ├── train_yolov8.py #Training,validation and results
 │   └──train_crossvit.py#Training,validation and results
 └── README.md           # Project documentation
+
+
