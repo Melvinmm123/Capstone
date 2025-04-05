@@ -65,7 +65,6 @@ Run all cells to train and test the YOLOv8 baseline model on the annotated image
 Open crossvit_baseline.ipynb.
 Run all cells to train and test the CrossViT baseline model for classification.
 
-
 - Main Training and Testing: The core implementation is in the code/ directory:
 -YOLOv8 Training and Validation:
 Navigate to code/ and open yolov8.ipynb.
