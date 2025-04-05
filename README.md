@@ -38,7 +38,7 @@ To run the notebooks, you need a Python environment with the necessary dependenc
 
 - **Clone the Repository**:
   ```bash
-git clone https://github.com/Melvinmm123/Capstone.git
+  git clone https://github.com/Melvinmm123/Capstone.git
   cd Capstone
 
 Install Python Dependencies: The project requires Python 3.8 or higher. All required libraries are listed in requirements.txt. Install them using the following command:!pip install -r requirements.txt
@@ -54,7 +54,7 @@ Run all cells in the notebook. This will process the data/raw/nifty50 file, gene
 - **Training/Testing Demo Scripts
 The project includes notebooks for exploratory data analysis (EDA), baseline models, and the main training/testing pipeline. Run them in the following order to replicate the results:
 
-- **Exploratory Data Analysis (Optional): To explore the dataset and visualize candlestick patterns:
+- **Exploratory Data Analysis: To explore the dataset and visualize candlestick patterns:
 In Jupyter, navigate to notebooks/ and open eda.ipynb.
 Run all cells to generate visualizations of the data 
 
