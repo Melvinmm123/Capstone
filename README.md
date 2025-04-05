@@ -41,36 +41,37 @@ To run the notebooks, you need a Python environment with the necessary dependenc
   git clone https://github.com/Melvinmm123/Capstone.git
   cd Capstone
 
-Install Python Dependencies: The project requires Python 3.8 or higher. All required libraries are listed in requirements.txt. Install them using the following command:!pip install -r requirements.txt
+Install Python Dependencies: The project requires Python 3.8 or higher. All required libraries are listed in requirements.txt. Install them using the following command:
+pip install -r requirements.txt
 
-- **Data Preparation:
+- Data Preparation:
 The dataset is already provided in the data/ directory, so no external downloading is required.
 
-- **Generate Annotations: The scripts/rule_based_labeling.ipynb notebook applies rule-based labeling to the raw NIFTY50 data to generate annotated images for training.
-- Run this notebook first:
+- Generate Annotations: The scripts/rule_based_labeling.ipynb notebook applies rule-based labeling to the raw NIFTY50 data to generate annotated images for training.
+Run this notebook first:
 In Jupyter, navigate to the scripts/ directory and open rule_based_labeling.ipynb.
 Run all cells in the notebook. This will process the data/raw/nifty50 file, generate candlestick pattern labels
 
-- **Training/Testing Demo Scripts
+- Training/Testing Demo Scripts
 The project includes notebooks for exploratory data analysis (EDA), baseline models, and the main training/testing pipeline. Run them in the following order to replicate the results:
 
-- **Exploratory Data Analysis: To explore the dataset and visualize candlestick patterns:
+- Exploratory Data Analysis: To explore the dataset and visualize candlestick patterns:
 In Jupyter, navigate to notebooks/ and open eda.ipynb.
 Run all cells to generate visualizations of the data 
 
-- **Baseline Models: To evaluate the baseline performance of YOLOv8 and CrossViT:
+- Baseline Models: To evaluate the baseline performance of YOLOv8 and CrossViT:
 Navigate to baselines/ and open yolov8_baseline.ipynb.
 Run all cells to train and test the YOLOv8 baseline model on the annotated images.
 Open crossvit_baseline.ipynb.
 Run all cells to train and test the CrossViT baseline model for classification.
 
 
-- **Main Training and Testing: The core implementation is in the code/ directory:
-YOLOv8 Training and Validation:
+- Main Training and Testing: The core implementation is in the code/ directory:
+-YOLOv8 Training and Validation:
 Navigate to code/ and open yolov8.ipynb.
 Run all cells to train YOLOv8 on the annotated images, validate the model, and generate predictions.
 
-CrossViT Training and Validation:
+-CrossViT Training and Validation:
 Open code/crossvit.ipynb.
 Run all cells to train CrossViT for classifying candlestick patterns, validate the model, and generate results.
 
