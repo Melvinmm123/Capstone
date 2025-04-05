@@ -66,11 +66,24 @@ Open crossvit_baseline.ipynb.
 Run all cells to train and test the CrossViT baseline model for classification.
 
 - Main Training and Testing: The core implementation is in the code/ directory:
--YOLOv8 Training and Validation:
+YOLOv8 Training and Validation:
 Navigate to code/ and open yolov8.ipynb.
 Run all cells to train YOLOv8 on the annotated images, validate the model, and generate predictions.
 
--CrossViT Training and Validation:
+CrossViT Training and Validation:
 Open code/crossvit.ipynb.
 Run all cells to train CrossViT for classifying candlestick patterns, validate the model, and generate results.
+
+
+## References and Acknowledgments
+This project builds on several foundational works and resources, which I gratefully acknowledge:
+
+-YOLOv8: The object detection component of this project uses YOLOv8, developed by Ultralytics. The implementation and pretrained models were sourced from their official repository.
+Repository: https://github.com/ultralytics/ultralytics
+Citation: Ultralytics (2023). YOLOv8: A New State-of-the-Art Object Detection Model.
+-CrossViT: The classification component leverages CrossViT, a vision transformer model for image classification. I used the implementation from the Hugging Face Transformers library, based on the original paper by Chen et al.
+Paper: Chen, C.-F., Fan, Q., & Panda, R. (2021). "CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification." Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV).
+Hugging Face Transformers: https://github.com/huggingface/transformers
+-Stock Market Pattern Detection with YOLOv8: This project was inspired by and built upon the work in the stockmarket-pattern-detection-yolov8 repository by FODUU, which provided valuable insights into applying YOLOv8 for stock market pattern detection.
+Repository: https://github.com/foduucom/stockmarket-pattern-detection-yolov8
 
